@@ -29,6 +29,9 @@
     $options
   );
 
-  $data['message'] = 'hello world';
-  $pusher->trigger('my-channel', 'my-event', $data);
+  echo json_encode( $_POST );
+  
+  $event = array_keys($_POST)[0];
+  $data = $_POST[$event];
+  $pusher->trigger('my-channel', $event, $data);
 ?>
