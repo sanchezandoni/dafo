@@ -1,0 +1,11 @@
+[pusher_credentials]
+cluster = "eu"
+useTLS = true
+app_id =
+key =
+secret =
+
+[config_js]
+pusher_cluster = "eu"
+pusher_force_tls = true
+pusher_key = 
