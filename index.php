@@ -82,7 +82,7 @@
           <!-- <div class="field has-addons"> -->
             <form action="./server.php" method="POST" class="field has-addons">
               <div class="control">
-                <input class="input" type="text" placeholder="Oportunidad" name="Oportunidade">
+                <input class="input" type="text" placeholder="Oportunidad" name="Oportunidad">
               </div>
               <div class="control">
                 <input type="submit" value="Enviar" class="button is-info js-submit-button">

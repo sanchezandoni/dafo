@@ -25,29 +25,27 @@
 </head>
 <body>
 	
-	<div id="app">
-		<table>
-			<div class="columns">
-				<div class="column" style="background-color:#F54C10">
-					<h1 class="title">Debilidades</h1>
-					<ul id="debilidades"></ul>
-				</div>
-				<div class="column" style="background-color:#34A29C">
-					<h1 class="title">Amenazas</h1>
-					<ul id="amenazas"></ul>
-				</div>
+	<div id="app" class="container">
+		<div class="columns">
+			<div class="column" style="background-color:#F54C10">
+				<h1 class="title">Debilidades</h1>
+				<ul id="debilidades"></ul>
 			</div>
-			<div class="columns">
-				<div class="column" style="background-color:#F79205">
-					<h1 class="title">Fortalezas</h1>
-					<ul id="fortalezas"></ul>
-				</div>
-				<div class="column" style="background-color:#36AE61">
-					<h1 class="title">Oportunidades</h1>
-					<ul id="oportunidades"></ul>
-				</div>
+			<div class="column" style="background-color:#34A29C">
+				<h1 class="title">Amenazas</h1>
+				<ul id="amenazas"></ul>
 			</div>
-		</table>
+		</div>
+		<div class="columns">
+			<div class="column" style="background-color:#F79205">
+				<h1 class="title">Fortalezas</h1>
+				<ul id="fortalezas"></ul>
+			</div>
+			<div class="column" style="background-color:#36AE61">
+				<h1 class="title">Oportunidades</h1>
+				<ul id="oportunidades"></ul>
+			</div>
+		</div>
 	</div>
 
 	<script type="text/javascript">
